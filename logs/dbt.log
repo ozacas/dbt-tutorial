@@ -1,0 +1,108 @@
+[0m13:33:31.211826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c817b7854c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c817a698ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c817bf5f0e0>]}
+
+
+============================== 13:33:31.217001 | a7c66fd4-32a0-422e-9de0-0f3c83d203a9 ==============================
+[0m13:33:31.217001 [info ] [MainThread]: Running with dbt=1.8.3
+[0m13:33:31.218000 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/acas/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init jaffle_shop', 'send_anonymous_usage_stats': 'True'}
+[0m13:33:31.232297 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/acas/.dbt')}
+[0m13:33:31.232973 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:33:31.234573 [debug] [MainThread]: Starter project path: /home/acas/dbt-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m13:33:31.237638 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:33:31.238241 [info ] [MainThread]: Setting up your profile.
+[0m13:34:11.884667 [info ] [MainThread]: Profile jaffle_shop written to /home/acas/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:34:11.892199 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 40.741493, "process_user_time": 1.727894, "process_kernel_time": 0.120062, "process_mem_max_rss": "96792", "process_in_blocks": "96", "process_out_blocks": "80"}
+[0m13:34:11.897502 [debug] [MainThread]: Command `dbt init` succeeded at 13:34:11.896473 after 40.75 seconds
+[0m13:34:11.900225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c817aa55940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c817aa74a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8179d1bc20>]}
+[0m13:34:11.902640 [debug] [MainThread]: Flushing usage events
+[0m13:41:00.127120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcf178d9df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcf1adf0c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcf19697110>]}
+
+
+============================== 13:41:00.130948 | 5edb92d5-3492-4bcf-b47b-e286c4e949fc ==============================
+[0m13:41:00.130948 [info ] [MainThread]: Running with dbt=1.8.3
+[0m13:41:00.132162 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/acas/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:41:00.146529 [info ] [MainThread]: dbt version: 1.8.3
+[0m13:41:00.147173 [info ] [MainThread]: python version: 3.12.3
+[0m13:41:00.147693 [info ] [MainThread]: python path: /home/acas/dbt-env/bin/python
+[0m13:41:00.148244 [info ] [MainThread]: os info: Linux-6.8.0-36-generic-x86_64-with-glibc2.39
+[0m13:41:00.221777 [info ] [MainThread]: Using profiles dir at /home/acas/.dbt
+[0m13:41:00.222540 [info ] [MainThread]: Using profiles.yml file at /home/acas/.dbt/profiles.yml
+[0m13:41:00.223367 [info ] [MainThread]: Using dbt_project.yml file at /home/acas/src/dbt-tutorial/dbt_project.yml
+[0m13:41:00.225282 [info ] [MainThread]: adapter type: postgres
+[0m13:41:00.226178 [info ] [MainThread]: adapter version: 1.8.2
+[0m13:41:00.227003 [info ] [MainThread]: Configuration:
+[0m13:41:00.227785 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:41:00.228612 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:41:00.229222 [info ] [MainThread]: Required dependencies:
+[0m13:41:00.229951 [debug] [MainThread]: Executing "git --help"
+[0m13:41:00.235160 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:41:00.235952 [debug] [MainThread]: STDERR: "b''"
+[0m13:41:00.237053 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:41:00.237702 [info ] [MainThread]: Connection:
+[0m13:41:00.238249 [info ] [MainThread]:   host: woodend
+[0m13:41:00.238742 [info ] [MainThread]:   port: 5432
+[0m13:41:00.239248 [info ] [MainThread]:   user: acas
+[0m13:41:00.239946 [info ] [MainThread]:   database: jaffle_shop
+[0m13:41:00.240446 [info ] [MainThread]:   schema: public
+[0m13:41:00.240944 [info ] [MainThread]:   connect_timeout: 10
+[0m13:41:00.241430 [info ] [MainThread]:   role: None
+[0m13:41:00.241926 [info ] [MainThread]:   search_path: None
+[0m13:41:00.242411 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:41:00.242881 [info ] [MainThread]:   sslmode: None
+[0m13:41:00.243377 [info ] [MainThread]:   sslcert: None
+[0m13:41:00.243852 [info ] [MainThread]:   sslkey: None
+[0m13:41:00.244337 [info ] [MainThread]:   sslrootcert: None
+[0m13:41:00.244809 [info ] [MainThread]:   application_name: dbt
+[0m13:41:00.245299 [info ] [MainThread]:   retries: 1
+[0m13:41:00.245967 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m13:41:00.250581 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:41:00.305096 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:41:00.305701 [debug] [MainThread]: On debug: select 1 as id
+[0m13:41:00.306210 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:41:00.307234 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "woodend" (127.0.1.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[0m13:41:00.308197 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m13:41:00.308677 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m13:41:00.309221 [debug] [MainThread]: On debug: No close available on handle
+[0m13:41:00.309688 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m13:41:00.310409 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:41:00.311407 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/acas/src/dbt-tutorial/dbt_project.yml> not found
+
+[0m13:41:00.312803 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "woodend" (127.0.1.1), port 5432 failed: Connection refused
+  	Is the server running on that host and accepting TCP/IP connections?
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m13:41:00.314566 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.24958692, "process_user_time": 1.793722, "process_kernel_time": 0.136826, "process_mem_max_rss": "101812", "process_in_blocks": "64", "process_out_blocks": "32", "command_success": false}
+[0m13:41:00.315716 [debug] [MainThread]: Command `dbt debug` failed at 13:41:00.315524 after 0.25 seconds
+[0m13:41:00.316293 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:41:00.317158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcf17357170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcf173ce660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcf170cfd10>]}
+[0m13:41:00.319130 [debug] [MainThread]: Flushing usage events
